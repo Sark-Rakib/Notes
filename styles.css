@@ -5,6 +5,11 @@ body {
   background-color: rgb(178, 178, 70);
   margin-top: 60px;
 }
+@media screen and (max-width: 480px) {
+  body {
+    background-color:  rgb(178, 178, 70);
+  }
+}
 
 .container {
 display: flex;
